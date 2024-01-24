@@ -31,6 +31,9 @@
     top: 70%;
   }
   80% {
+   top: 115%; 
+  }
+  100% {
    top: 143%; 
   }
 }
@@ -45,7 +48,14 @@
   background-size: 20px 40px;
   animation: cactus-block 1.2s infinite linear;
 }
-
+@keyframes cactus-block {
+  0% {
+    left: 600px;
+  }
+  100% {
+    left: -20px;
+  }
+}
 
 
 
